@@ -52,8 +52,8 @@ function makeApiRequest(sendBackResponseToBrowser) {
 
 
 var keys = {
-    client: process.env.TWITTER_CLIENT_ID , 
-    secret: process.env.TWITTER_SECRET_KEY
+    client: process.env.TWITTER_API_KEY, 
+    secret: process.env.TWITTER_API_SECRET
 }
 
 

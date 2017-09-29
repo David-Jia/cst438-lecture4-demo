@@ -2,8 +2,8 @@ var https = require('https');
 var btoa = require('btoa');
 
 var keys = {
-    client: 'Xy3WOLIgPe4AIiBhHt4EBPRKx', 
-    secret: 'TjU1lEByqhGS5vnGK02M9trY98PycbqI09fVGmCexPj2VumwJQ'
+    client: 'bnh4pRQbFUiftK4pASPYqFrsA', 
+    secret: 'oefsWCcb9VbXEI3barKTAeTAHgkfqEZDeExjusUi60bC2H8htN'
 }
 
 var combined = keys.client + ":" + keys.secret; 
