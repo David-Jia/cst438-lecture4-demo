@@ -45,6 +45,7 @@ describe("Twitter api call", function() {
     });
 }); 
 
+// ignore this comment
 var stub = sinon.stub(getty, "makeApiRequest").callsFake(function(callback) {
          callback(null, "http://gettyimages.com/bird.png"); 
     });
